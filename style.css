@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px; }
+  @media (max-width: 800px) {
+    .header-image {
+      display: block;
+      margin: none; }
+      .header-image img {
+        width: 100%;
+        height: auto; } }
+
+a {
+  -webkit-box-shadow: inset 0 -1px #E0E0E0;
+          box-shadow: inset 0 -1px #E0E0E0;
+  padding-bottom: 2px;
+  color: #EA7312 !important; }
+  a:hover {
+    text-decoration: none !important;
+    color: darkorange !important; }
+
+.article {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto; }
+  @media (max-width: 900px) {
+    .article {
+      margin-left: 15px;
+      margin-right: 15px; } }
+
+.breed-top {
+  text-align: center; }
+  .breed-top_par {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    font-family: Lora; }
+    @media (max-width: 700px) {
+      .breed-top_par {
+        max-width: 80%; } }
+
+ul {
+  padding-bottom: 10px; }
+
+.breed-top_choose {
+  list-style: none;
+  display: inline-block; }
+  .breed-top_choose li:before {
+    content: '';
+    background-image: url(img/choose.svg);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 5px 5px 5px; }
+
+.breed-type {
+  list-style: none; }
+  .breed-type li {
+    display: inline-block;
+    padding-right: 20px; }
+    .breed-type li:last-child {
+      padding-right: 0; }
+    @media (max-width: 500px) {
+      .breed-type li {
+        display: block;
+        line-height: 30px; } }
+  .breed-type_longhair:before {
+    content: '';
+    background-image: url(img/rex.svg);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px 5px 5px; }
+  .breed-type_shorthair:before {
+    content: '';
+    background-image: url(img/russian-blue.svg);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px 5px 5px; }
+  .breed-type_sphynxes:before {
+    content: '';
+    background-image: url(img/sphynx.svg);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 5px 5px 5px; }
+
+.breed-top_alph {
+  font-size: 24px;
+  padding-top: 10px; }
+  @media (max-width: 600px) {
+    .breed-top_alph {
+      max-width: 300px;
+      margin: 0 auto; } }
+  .breed-top_alph a {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .breed-top_alph li {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 10px; }
+
+.breed-body_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 0 20px 0; }
+
+.breed-body_letter {
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 15px;
+  overflow: hidden; }
+  .breed-body_letter:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 2px;
+    background: #E0E0E0;
+    border: solid #FFF;
+    border-width: 0 .5em 0;
+    margin-right: -100%; }
+    @media (max-width: 1000px) {
+      .breed-body_letter:after {
+        max-width: 90%; } }
+
+.card {
+  width: 30%;
+  word-wrap: normal !important;
+  margin: 10px 20px 20px 0;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border: none !important; }
+  @media (max-width: 720px) {
+    .card {
+      width: 45%; } }
+  @media (max-width: 460px) {
+    .card {
+      width: 80%; } }
+  .card:hover {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+    .card:hover h3 {
+      color: darkorange; }
+  .card a {
+    text-decoration: none !important;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  .card .card-title {
+    margin-bottom: .75rem;
+    font-size: 20px;
+    color: #EA7312; }
+  .card .card-text {
+    margin-bottom: 0;
+    color: #333333;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
