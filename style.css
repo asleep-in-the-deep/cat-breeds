@@ -13,7 +13,7 @@
   @media (max-width: 800px) {
     .header-image {
       display: block;
-      margin: none; }
+      margin: 0 auto; }
       .header-image img {
         width: 100%;
         height: auto; } }
@@ -31,10 +31,6 @@ a {
   width: 100%;
   max-width: 900px;
   margin: 0 auto; }
-  @media (max-width: 900px) {
-    .article {
-      margin-left: 15px;
-      margin-right: 15px; } }
 
 .breed-top {
   text-align: center; }
@@ -113,6 +109,10 @@ ul {
     display: inline-block;
     padding-right: 10px; }
 
+@media (max-width: 900px) {
+  .breed-body {
+    margin-left: 15px; } }
+
 .breed-body_block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,12 +142,12 @@ ul {
     margin-right: -100%; }
     @media (max-width: 1000px) {
       .breed-body_letter:after {
-        max-width: 90%; } }
+        max-width: 95%; } }
 
 .card {
   width: 30%;
   word-wrap: normal !important;
-  margin: 10px 20px 20px 0;
+  margin: 10px 10px 20px 10px;
   -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
   border: none !important; }
